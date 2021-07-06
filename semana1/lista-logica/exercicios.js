@@ -18,19 +18,27 @@ function imprimeMensagem() {
 
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
-  // implemente sua lógica aqui
+  const altura = Number(prompt('Digite a altura do retangulo!'))
+  const largura= Number(prompt('Digite a largura do retangulo!'))
+  const area = altura *  largura
+  console.log(area)
 
 }
 
 // EXERCÍCIO 02
 function imprimeIdade() {
-  // implemente sua lógica aqui
+  const anoAtual = Number(prompt("Digite seu ano atual?"))
+  const anoDeNascimento =  Number(prompt("Digite seu ano de Nascimento?"))
+  const idadeAtual = anoAtual - anoDeNascimento
+  console.log(idadeAtual)
 
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
+  
+  const imc = peso/(altura*altura)
+  return imc
 
 }
 
